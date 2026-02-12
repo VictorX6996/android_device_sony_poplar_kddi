@@ -23,7 +23,9 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     device/sony/poplar_kddi/overlay/packages/apps/Settings\
-    device/sony/yoshino-common/overlay/frameworks/base/packages/SystemUI
+    device/sony/yoshino-common/overlay/frameworks/base/packages/SystemUI\
+    device/sony/poplar_kddi/overlay/packages/apps/SettingsGoogle
+
 
 ### POWER
 TARGET_USE_CUSTOM_POWERHINT := true
