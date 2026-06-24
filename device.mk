@@ -21,4 +21,10 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay
 
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
+    device/sony/poplar_kddi/overlay/packages/apps/Settings
+
+### POWER
+TARGET_USE_CUSTOM_POWERHINT := true
+
 include $(DEVICE_PATH)/device/*.mk
