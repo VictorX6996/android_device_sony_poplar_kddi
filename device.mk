@@ -18,7 +18,6 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREBUILT_DPI := xxhdpi xhdpi hdpi
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
-# 復活 ConfigStore 服務
 PRODUCT_PACKAGES += \
     android.hardware.configstore@1.1-service\
     android.hardware.graphics.allocator@2.0-service \
